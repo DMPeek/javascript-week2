@@ -1,0 +1,126 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(0,0,40);
+    color: white;
+    margin: 0;
+}
+
+#welcomeMessageBody {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #888;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+}
+
+.headStyle {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hStyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    text-decoration: none;
+}
+
+.bannerImage {
+    background-image: url(FriendsGaming.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+    top: 0%;
+    left: 0%;
+    filter: brightness(50%);
+    position: absolute;
+    z-index: -1;
+}
+
+#meContainer, #formContainer {
+    align-items: center;
+    text-align: center;
+}
+
+#me  {
+    height: 175px;
+    width: 125px;
+}
+
+h1 {
+    margin-left: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#useWelcome {
+    color: black;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+#navbar li {
+    margin: 20px 100px 20px 0px;
+}
+
+#foot {
+    display: flex;
+    margin-top: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+#footContact {
+    display: flex;
+    margin-top: 210px;
+    justify-content: center;
+    align-items: center;
+}
+
+#footAbout {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerContent {
+    padding-right: 5px;
+}
+
+a {
+    color: white;
+}
+
+#holdingStuff {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
